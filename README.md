@@ -1,6 +1,7 @@
 # ALX Listing App
 
-The **ALX Listing App** is a foundational scaffold for a modern Airbnb clone. It sets up a robust and scalable codebase using **Next.js**, **TypeScript**, **TailwindCSS**, and **ESLint**, providing the perfect starting point for building a dynamic, responsive, and user-friendly property listing application.
+## Description
+The ALX Listing App is a web application inspired by Airbnb, designed to display property listings with a clean and reusable UI. The project uses React with TypeScript to create a scalable and maintainable codebase for showcasing property details in a card-based layout.
 
 ---
 
@@ -11,22 +12,16 @@ The **ALX Listing App** is a foundational scaffold for a modern Airbnb clone. It
 - Enforce **code quality** using ESLint and best practices.
 - Lay the groundwork for a real-world **Airbnb-style listing platform**.
 
----
+## Project Structure
+- **`components/common/`**: Contains reusable UI components.
+  - `Card.tsx`: A reusable card component to display property information (e.g., image, title, price).
+  - `Button.tsx`: A reusable button component for actions like "Book Now" or "View Details".
+- **`interfaces/`**: Defines TypeScript interfaces for type safety.
+  - `index.ts`: Contains interfaces like `CardProps` and `ButtonProps`.
+- **`constants/`**: Stores reusable constants such as API URLs and UI text.
+  - `index.ts`: Defines constants like `API_URL` and `UI_TEXT`.
+- **`public/assets/`**: Stores static assets like images and SVGs for property listings.
 
-## Learning Objectives
-
-This project is aimed at developers looking to deepen their understanding of production-ready web development with a modern stack.
-
-By the end of this milestone, you will:
-
-- Scaffold a fully typed Next.js project using TypeScript.
-- Set up and configure TailwindCSS for responsive UI.
-- Use ESLint for maintaining consistent, clean code.
-- Build reusable UI components like `Card` and `Button`.
-- Create and manage shared TypeScript interfaces for maintainability.
-- Organize project folders for scalability.
-
----
 
 ## 🧑Technologies Used
 
@@ -60,3 +55,6 @@ Before getting started, make sure you have the following installed:
 git clone https://github.com/your-username/alx-listing-app.git
 cd alx-listing-app
 npm install
+npm run dev
+
+Open the app in your browser at http://localhost:3000
